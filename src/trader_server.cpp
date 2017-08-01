@@ -30,7 +30,7 @@ namespace future
         TAPIINT32 iResult = TAPIERROR_SUCCEED;
         TapAPIApplicationInfo stAppInfo;
         strcpy(stAppInfo.AuthCode, authcode.toStdString().c_str());
-        strcpy(stAppInfo.KeyOperationLogPath, "\\log");
+        strcpy(stAppInfo.KeyOperationLogPath, "log");
         ctptrader_api_inst = CreateITapTradeAPI(&stAppInfo, iResult);
         ctptrader_spi_inst = new Trade();
     }

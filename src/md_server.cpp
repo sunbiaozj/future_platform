@@ -26,7 +26,7 @@ namespace future
         TAPIINT32 iResult = TAPIERROR_SUCCEED;
         TapAPIApplicationInfo stAppInfo;
         strcpy(stAppInfo.AuthCode, authcode.toStdString().c_str());
-        strcpy(stAppInfo.KeyOperationLogPath, "");
+        strcpy(stAppInfo.KeyOperationLogPath, "log");
         ctpmd_api_inst = CreateTapQuoteAPI(&stAppInfo, iResult);
         ctpmd_spi_inst = new Quote();
     }
