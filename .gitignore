@@ -14,11 +14,13 @@ ctp_test/market/*
 ################### 
 *.com 
 *.class 
+#*.dll 
 *.exe 
 *.o 
 *.so 
 *.exp
 *.ilk
+#*.lib
 *.pdb
 *.opensdf
 *.sdf
