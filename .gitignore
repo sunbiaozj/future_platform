@@ -1,0 +1,28 @@
+# Packages # 
+############ 
+bin/*
+temp/*
+log/*
+lib/*
+include/*
+ipch/*
+ctp_test/tr_con/*
+ctp_test/md_con/*
+ctp_test/market/*
+
+ # Compiled source # 
+################### 
+*.com 
+*.class 
+*.exe 
+*.o 
+*.so 
+*.exp
+*.ilk
+*.pdb
+*.opensdf
+*.sdf
+*.v12.suo
+*.log
+*.bak
+*.con
